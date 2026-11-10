@@ -1,0 +1,17 @@
+# Your token and your data never leave your computer.
+.env
+.env.*
+config.json
+data/
+runs/
+editions/
+logs/
+videos/
+*.mp4
+*.mov
+*.m4a
+*.wav
+.venv/
+__pycache__/
+*.pyc
+.DS_Store

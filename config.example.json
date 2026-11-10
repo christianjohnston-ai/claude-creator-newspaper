@@ -1,0 +1,47 @@
+{
+  "paper_name": "The Morning Reel",
+  "niche": "what your niche is, in a few words",
+  "what_to_learn": "hooks, formats, topics, editing",
+  "creators": [
+    {"platform": "instagram", "handle": "creator_handle_one"},
+    {"platform": "tiktok", "handle": "creator_handle_two"}
+  ],
+  "budget": {"monthly_limit_usd": 5.0},
+  "first_window_days": 3,
+  "baseline_reels": 30,
+  "max_new_per_creator_per_run": 10,
+  "measure": {
+    "judge_at_hours": 72,
+    "min_history": 10,
+    "breakout": 3.0,
+    "above": 1.5,
+    "below": 0.5,
+    "early_after_days": 14,
+    "early_multiple": 3.0
+  },
+  "prices_usd": {
+    "checked_on": "2026-11-10",
+    "instagram": {
+      "actor": "apify/instagram-reel-scraper",
+      "per_reel": 0.0026,
+      "per_run_start": 0.001
+    },
+    "tiktok": {
+      "actor": "clockworks/tiktok-scraper",
+      "per_result": 0.0037,
+      "date_filter_per_result": 0.0013,
+      "video_download_per_video": 0.0013,
+      "per_run_start": 0.001
+    }
+  },
+  "transcribe": {"engine": "auto", "model": "", "python": ""},
+  "frames": {
+    "dense_seconds": 3.0,
+    "dense_step": 0.5,
+    "step": 2.0,
+    "scene_threshold": 0.3,
+    "max_scene_frames": 12,
+    "frame_width": 360
+  },
+  "keep_videos_days": 7
+}
